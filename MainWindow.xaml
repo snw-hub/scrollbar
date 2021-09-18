@@ -1,0 +1,18 @@
+﻿<Window x:Class="ScrollBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScrollBar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="594.486">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left">
+                <Canvas Height="334" Width="594">
+
+                </Canvas>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
